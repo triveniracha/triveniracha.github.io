@@ -1,68 +1,51 @@
-body {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  line-height: 1.6;
-  margin: 0;
-  padding: 0;
-  background: #f9f9f9;
-  color: #333;
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Triveni Janardhan Racha</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: #f4f4f4;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
 
-.container {
-  max-width: 900px;
-  margin: 0 auto;
-  padding: 2rem;
-  background: #fff;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-}
+    .container {
+      text-align: center;
+      background: #fff;
+      padding: 2rem 3rem;
+      border-radius: 8px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    }
 
-header {
-  text-align: center;
-  margin-bottom: 2rem;
-}
+    h1 {
+      margin-bottom: 1rem;
+    }
 
-header h1 {
-  font-size: 2rem;
-  margin-bottom: 0.5rem;
-}
+    a.button {
+      display: inline-block;
+      padding: 0.75rem 1.5rem;
+      font-size: 1rem;
+      background: #007acc;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+    }
 
-header a {
-  color: #0066cc;
-  text-decoration: none;
-  margin: 0 0.3rem;
-}
-
-section {
-  margin-bottom: 2rem;
-}
-
-h2 {
-  color: #2c3e50;
-  border-bottom: 2px solid #ddd;
-  padding-bottom: 0.3rem;
-  margin-bottom: 1rem;
-}
-
-h3 {
-  margin: 0.2rem 0;
-  color: #333;
-}
-
-.item {
-  margin-bottom: 1.2rem;
-}
-
-.date {
-  float: right;
-  font-weight: normal;
-  font-size: 0.9rem;
-  color: #666;
-}
-
-ul {
-  padding-left: 1.2rem;
-  margin: 0.5rem 0;
-}
-
-ul li {
-  margin-bottom: 0.5rem;
-}
+    a.button:hover {
+      background: #005fa3;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Hi, I'm Triveni Janardhan Racha</h1>
+    <p>Click below to view my resume:</p>
+    <a class="button" href="resume.html">View My Resume (HTML)</a>
+  </div>
+</body>
+</html>
